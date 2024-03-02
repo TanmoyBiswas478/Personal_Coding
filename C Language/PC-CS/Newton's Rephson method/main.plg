@@ -1,0 +1,46 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: main - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\student\AppData\Local\Temp\RSPA97.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/main.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Users\student\Desktop\1171_Tanmoy Biswas(GPR-1)\Newton's Rephson method (2)\main.c"
+]
+Creating command line "cl.exe @C:\Users\student\AppData\Local\Temp\RSPA97.tmp" 
+<h3>Output Window</h3>
+Compiling...
+main.c
+c:\users\student\desktop\1171_tanmoy biswas(gpr-1)\newton's rephson method (2)\main.c(11) : error C2143: syntax error : missing ';' before 'type'
+c:\users\student\desktop\1171_tanmoy biswas(gpr-1)\newton's rephson method (2)\main.c(11) : error C2143: syntax error : missing ';' before 'type'
+c:\users\student\desktop\1171_tanmoy biswas(gpr-1)\newton's rephson method (2)\main.c(11) : error C2143: syntax error : missing ')' before 'type'
+c:\users\student\desktop\1171_tanmoy biswas(gpr-1)\newton's rephson method (2)\main.c(11) : error C2143: syntax error : missing ';' before 'type'
+c:\users\student\desktop\1171_tanmoy biswas(gpr-1)\newton's rephson method (2)\main.c(11) : error C2065: 'i' : undeclared identifier
+c:\users\student\desktop\1171_tanmoy biswas(gpr-1)\newton's rephson method (2)\main.c(11) : error C2059: syntax error : ')'
+c:\users\student\desktop\1171_tanmoy biswas(gpr-1)\newton's rephson method (2)\main.c(12) : error C2143: syntax error : missing ';' before '{'
+c:\users\student\desktop\1171_tanmoy biswas(gpr-1)\newton's rephson method (2)\main.c(13) : warning C4244: 'function' : conversion from 'int ' to 'float ', possible loss of data
+c:\users\student\desktop\1171_tanmoy biswas(gpr-1)\newton's rephson method (2)\main.c(13) : warning C4244: 'function' : conversion from 'int ' to 'float ', possible loss of data
+c:\users\student\desktop\1171_tanmoy biswas(gpr-1)\newton's rephson method (2)\main.c(15) : warning C4244: '=' : conversion from 'int ' to 'float ', possible loss of data
+c:\users\student\desktop\1171_tanmoy biswas(gpr-1)\newton's rephson method (2)\main.c(16) : warning C4244: '=' : conversion from 'int ' to 'float ', possible loss of data
+c:\users\student\desktop\1171_tanmoy biswas(gpr-1)\newton's rephson method (2)\main.c(17) : error C2043: illegal break
+c:\users\student\desktop\1171_tanmoy biswas(gpr-1)\newton's rephson method (2)\main.c(28) : error C2143: syntax error : missing ';' before 'do'
+c:\users\student\desktop\1171_tanmoy biswas(gpr-1)\newton's rephson method (2)\main.c(33) : error C2065: 'z' : undeclared identifier
+c:\users\student\desktop\1171_tanmoy biswas(gpr-1)\newton's rephson method (2)\main.c(35) : error C2143: syntax error : missing ')' before ';'
+c:\users\student\desktop\1171_tanmoy biswas(gpr-1)\newton's rephson method (2)\main.c(36) : error C2143: syntax error : missing ')' before ';'
+c:\users\student\desktop\1171_tanmoy biswas(gpr-1)\newton's rephson method (2)\main.c(38) : error C2001: newline in constant
+c:\users\student\desktop\1171_tanmoy biswas(gpr-1)\newton's rephson method (2)\main.c(40) : error C2143: syntax error : missing ')' before '}'
+c:\users\student\desktop\1171_tanmoy biswas(gpr-1)\newton's rephson method (2)\main.c(44) : error C2059: syntax error : 'type'
+c:\users\student\desktop\1171_tanmoy biswas(gpr-1)\newton's rephson method (2)\main.c(50) : warning C4244: 'return' : conversion from 'double ' to 'float ', possible loss of data
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+main.obj - 15 error(s), 5 warning(s)
+</pre>
+</body>
+</html>

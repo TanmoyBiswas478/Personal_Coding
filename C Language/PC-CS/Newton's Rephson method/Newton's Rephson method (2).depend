@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1662526249 source:c:\users\student\desktop\1171_tanmoy biswas(gpr-1)\newton's rephson method\main.c
+	<stdio.h>
+	<math.h>
+	<stdlib.h>
+
