@@ -1,0 +1,42 @@
+• AttributeError : Raised on the attribute assignment or reference fails.
+Eg –
+x = 10
+print(x.nonexistent_attribute)
+• ImportError : Raised when the imported module is not found.
+Eg –
+import nonexistent_module
+• IndexError : Raised when the index of a sequence is out of range.
+Eg –
+my_list = [1, 2, 3]
+print(my_list[10])
+• IndentationError: Raised when there is an incorrect indentation.
+Eg –
+def my_function():
+print("Hello")
+• SyntaxError : Raised by the parser when a syntax error is encountered.
+Eg –
+print "Hello"
+• SystemError : Raised when the interpreter detects internal error.
+Eg –
+raise SystemError
+• TypeError : Raised when a function or operation is applied to an object of an incorrect type.
+Eg –
+x = "Hello"
+print(x + 5)
+• NameError : Raised when a variable is not found in the local or global scope.
+Eg –
+print(undefined_variable)
+• ValueError : Raised when a function gets an argument of correct type but improper value.
+Eg –
+int("hello")
+• ZeroDivisionError : Raised when the second operand of a division or module operation is zero.
+Eg –
+print(1 / 0)
+• KeyError : Raised when a key is not found in a dictionary.
+Eg –
+my_dict = {"a": 1, "b": 2}
+print(my_dict["c"])
+• UnicodeError : Raised when a Unicode-related encoding or decoding error occurs.
+Eg –
+bytes_data = b'\x81'
+print(bytes_data.decode('utf-8'))
