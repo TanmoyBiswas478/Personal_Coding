@@ -27,8 +27,8 @@ def celsius_to_fahrenheit(celsius):
 def fahrenheit_to_celsius(fahrenheit):
     return (fahrenheit - 32) * 5/9
 def choose():
-    print("1. celsius_to_fahrenheit.")
-    print("2. fahrenheit_to_celsius.")
+    print("1. Celsius To Fahrenheit.")
+    print("2. Fahrenheit To Celsius.")
     choice = int(input("Enter your Choice : (1 or 2)\n"))
     if (choice == 1):
         celsius = int(input("Enter Celsius : "))
