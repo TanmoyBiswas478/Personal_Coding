@@ -156,6 +156,6 @@
    else:
        print("Invalid choice!")
 
-21. **List comprehension for squared numbers:**
+**List comprehension for squared numbers:**
 squared_numbers = [x ** 2 for x in range(1, 11)]
 print(f"Squared numbers from 1 to 10: {squared_numbers}")
